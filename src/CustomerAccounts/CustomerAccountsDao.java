@@ -9,8 +9,15 @@ public interface CustomerAccountsDao {
     void updateCustomerAccount(CustomerAccounts customerAccounts) throws SQLException;
     void deleteCustomerAccount(int customerId) throws SQLException;
 
-    static List<CustomerAccounts> getCustomerAccounts() throws SQLException;
-    static CustomerAccounts getCustomerAccountsbyId(int id) throws SQLException;
+    static List<CustomerAccounts> getCustomerAccounts() throws SQLException {
+        return null;
+    }
+
+    static CustomerAccounts getCustomerAccountsbyId(int id) throws SQLException {
+        return null;
+    }
+
+    ;
 }
 
 

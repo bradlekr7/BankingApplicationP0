@@ -40,7 +40,7 @@ public class UsersDaoImpl implements UsersDao {
         preparedStatement.setString(3, users.getEmail());
         preparedStatement.setString(4, users.getPassword());
         preparedStatement.setString(5, users.getUserType());
-        preparedStatement.setInt(6, users.getId());
+        //preparedStatement.setInt(6, users.getId());
 
         int count = preparedStatement.executeUpdate();
         if (count > 0) {

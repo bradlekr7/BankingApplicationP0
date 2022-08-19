@@ -8,8 +8,8 @@ public class CustomerAccounts {
     private String lName;
     private double currentBalance;
 
-    public CustomerAccounts() {
-    }
+//    public CustomerAccounts() {
+//    }
 
     public CustomerAccounts(int customerId, int accountId, String fName, String lName, double currentBalance) {
         this.customerId = customerId;
@@ -17,6 +17,10 @@ public class CustomerAccounts {
         this.fName = fName;
         this.lName = lName;
         this.currentBalance = currentBalance;
+    }
+
+    public CustomerAccounts() {
+
     }
 
     public int getCustomerId() {

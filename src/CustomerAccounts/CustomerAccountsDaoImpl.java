@@ -61,7 +61,7 @@ public class CustomerAccountsDaoImpl implements CustomerAccountsDao {
         }
     }
 
-    @Override
+
     public List<CustomerAccounts> getCustomerAccounts() throws SQLException {
         List<CustomerAccounts> users = new ArrayList<>();
         String sql = "select * from customer_accounts";
@@ -80,7 +80,7 @@ public class CustomerAccountsDaoImpl implements CustomerAccountsDao {
         return users;
     }
 
-    @Override
+
     public CustomerAccounts getCustomerAccountsbyId(int id) throws SQLException {
         CustomerAccounts customerAccounts = new CustomerAccounts();
         String sql = "select * from customer_accounts where account_id = " + id;
